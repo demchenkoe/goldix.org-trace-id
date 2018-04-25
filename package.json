@@ -1,0 +1,29 @@
+{
+  "name": "@goldix.org/trace-id",
+  "version": "0.0.1",
+  "description": "Build user frendly unique string with timestamp and IP included. Use for identification requests to server for techsupport (you can filter logs with this value and etc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demchenkoe/goldix.org-trace-id.git"
+  },
+  "keywords": [
+    "goldix.org",
+    "trace",
+    "id",
+    "unique",
+    "request"
+  ],
+  "author": "Eugene Demchenko <demchenkoev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demchenkoe/goldix.org-trace-id/issues"
+  },
+  "homepage": "https://github.com/demchenkoe/goldix.org-trace-id#readme",
+  "dependencies": {
+    "base-x": "^3.0.4"
+  }
+}
