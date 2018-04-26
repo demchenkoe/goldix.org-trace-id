@@ -141,7 +141,7 @@ class TraceID {
   }
   
   get userID() {
-    return this.flag === 1 ? this.id : null;
+    return this.isUserId === 1 ? this.id : null;
   }
   
   set userID(v) {
@@ -183,7 +183,7 @@ class TraceID {
   }
   
   get userIP() {
-    return this.flag === 0 ? this._intToIp(this.id) : null;
+    return this.isUserId === 0 ? this._intToIp(this.id) : null;
   }
   
   set userIP(v) {

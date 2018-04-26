@@ -1,6 +1,6 @@
 {
   "name": "@goldix.org/trace-id",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build user frendly unique string with timestamp and IP included. Use for identification requests to server for techsupport (you can filter logs with this value and etc)",
   "main": "index.js",
   "scripts": {
