@@ -1,6 +1,7 @@
 
 
 const base34 = require('base-x')('1234567890ABCDEFGHJKLMNPQRSTUVWXYZ');
+const utils = require('@goldix.org/utils');
 
 /**
  * - 41 TS (время, 41 год идентификаторов c точностью до миллисекунды с пользовательской эпохой, эпоха от 1 января 2018)
